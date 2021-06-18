@@ -17,19 +17,19 @@ def text_screen(text, color,x,y):
     gamewindow.blit(screen_text, [x,y])
 
 #images
-background=pygame.image.load('gallery/sprites/ninja jump/nature.jpg')
-base=pygame.image.load('gallery/sprites/ninja jump/base.jpg')
-player=pygame.image.load('gallery/sprites/ninja jump/player.png')
-hurdle1=pygame.image.load('gallery/sprites/ninja jump/hurdle1.png')
-hurdle2=pygame.image.load('gallery/sprites/ninja jump/hurdle2.png')
-warning=pygame.image.load('gallery/sprites/ninja jump/laser warning.PNG')
+background=pygame.image.load('nature.jpg')
+base=pygame.image.load('base.jpg')
+player=pygame.image.load('player.png')
+hurdle1=pygame.image.load('hurdle1.png')
+hurdle2=pygame.image.load('hurdle2.png')
+warning=pygame.image.load('laser warning.PNG')
 
 #sounds
-move = pygame.mixer.Sound('gallery/audio/swoosh.wav')
-hit = pygame.mixer.Sound('gallery/audio/hit.wav')
-win = pygame.mixer.Sound('gallery/audio/point.wav')
-laser = pygame.mixer.Sound('gallery/audio/laserdie.wav')
-fire = pygame.mixer.Sound('gallery/audio/firedie.wav')
+move = pygame.mixer.Sound('swoosh.wav')
+hit = pygame.mixer.Sound('hit.wav')
+win = pygame.mixer.Sound('point.wav')
+laser = pygame.mixer.Sound('laserdie.wav')
+fire = pygame.mixer.Sound('firedie.wav')
 exit_game = False
 
 #game variables
